@@ -23,18 +23,18 @@ public class LoginSuccess {
 		TestBase.openUrl("https://www.saucedemo.com/");
 	}
 	
-//	@Test
-//	public void validLogiTest() {
-//		loginPage.loginIntoApp("standard_user", "secret_sauce");
-//	
-//	}
-	
-
 	@Test
 	public void validLogiTest() {
-		loginPage.loginIntoApp("problem_user", "secret_sauce");
+		loginPage.loginIntoApp("standard_user", "secret_sauce");
 	
 	}
+	
+
+//	@Test
+//	public void validLogiTest() {
+//		loginPage.loginIntoApp("problem_user", "secret_sauce");
+//	
+//	}
 	
 
 }
