@@ -16,7 +16,7 @@ public class TestBase {
 	
 		String strBrowser= "chrome"; 
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--incognito--");
+		options.addArguments("--incognito");
 			
 			if (strBrowser.equalsIgnoreCase("chrome")) {
 //			  driver = new ChromeDriver();
