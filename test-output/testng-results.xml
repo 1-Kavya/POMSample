@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T17:42:19 IST" name="Default suite" finished-at="2025-04-08T17:42:21 IST" duration-ms="2218">
+  <suite started-at="2025-04-12T14:56:04 IST" name="Default suite" finished-at="2025-04-12T14:56:05 IST" duration-ms="1443">
     <groups>
     </groups>
-    <test started-at="2025-04-08T17:42:19 IST" name="Default test" finished-at="2025-04-08T17:42:21 IST" duration-ms="2218">
+    <test started-at="2025-04-12T14:56:04 IST" name="Default test" finished-at="2025-04-12T14:56:05 IST" duration-ms="1443">
       <class name="testscripts.PlaceOrderTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testscripts.PlaceOrderTest@6cea706c]" started-at="2025-04-08T17:42:19 IST" name="setup" finished-at="2025-04-08T17:42:19 IST" duration-ms="499" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testscripts.PlaceOrderTest@476aac9]" started-at="2025-04-12T14:56:04 IST" name="setup" finished-at="2025-04-12T14:56:05 IST" duration-ms="620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:testscripts.PlaceOrderTest@6cea706c]" started-at="2025-04-08T17:42:19 IST" name="validLoginTest" finished-at="2025-04-08T17:42:20 IST" duration-ms="449" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:testscripts.PlaceOrderTest@476aac9]" started-at="2025-04-12T14:56:05 IST" name="validLoginTest" finished-at="2025-04-12T14:56:05 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method signature="addItemTest()[pri:1, instance:testscripts.PlaceOrderTest@6cea706c]" started-at="2025-04-08T17:42:20 IST" name="addItemTest" finished-at="2025-04-08T17:42:20 IST" duration-ms="279" status="PASS">
+        <test-method signature="addItemTest()[pri:1, instance:testscripts.PlaceOrderTest@476aac9]" started-at="2025-04-12T14:56:05 IST" name="addItemTest" finished-at="2025-04-12T14:56:05 IST" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemTest -->
-        <test-method signature="checkoutItems()[pri:2, instance:testscripts.PlaceOrderTest@6cea706c]" started-at="2025-04-08T17:42:20 IST" name="checkoutItems" finished-at="2025-04-08T17:42:20 IST" duration-ms="543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.PlaceOrderTest@6cea706c]" started-at="2025-04-08T17:42:20 IST" name="tearDown" finished-at="2025-04-08T17:42:21 IST" duration-ms="375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- testscripts.PlaceOrderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

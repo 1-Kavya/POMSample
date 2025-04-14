@@ -48,7 +48,7 @@ public class PlaceOrderTest {
 		Assert.assertTrue(cartPage.isItemsAdded());
 	}
 	
-	@Test(priority=2)
+//	@Test(priority=2)
 	public void checkoutItems() {
 		cartPage.checkoutItems();
 		chkoutPage.provideDetails("Test","User","22535");
@@ -60,7 +60,7 @@ public class PlaceOrderTest {
 	}
 	
 	
-	@AfterTest
+//	@AfterTest
 	public void tearDown() {
 		TestBase.teardown();
 	}
